@@ -1,0 +1,15 @@
+2 I will declare a global exception handler as a service and register it in the DefaultJmsListenerContainerFactory.
+
+4 - A maven dependency is an artifact that your project (or Maven itself, in the case of Maven plugins) needs to have during the maven build lifecycle.
+  - These are declared in the <dependencies/> section of your project’s pom.xml
+  - For a springboot application you include the parent tag specifying the artifactid, groupid and version, for some of the dependencies that you declare in the pom 
+    you don't need to specify the version, springboot with it's built in auto config function will determine and download the latest version of the dependency.
+  - Maven download and store each dependency in the .m2 folder structured according to the dependency package name.
+	
+5 - System security
+  - System performance 
+  - Design walkthrough
+  - Impact analysis
+  - To discuss all the intergration points
+  - How to manage frequent changes in user requirements?
+  - The value of the solution
